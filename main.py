@@ -12,6 +12,8 @@ import os
 # The bounty gate: /output/entry.txt must hold exactly one word, 1-30
 # characters, no spaces. Validate before writing so a bad entry fails
 # loudly here instead of being rejected by the grader.
+# "Reply-all" is one hyphenated word, not two: the hyphen joins it,
+# and there are no spaces in it.
 MAX_CHARS = 30
 
 WORD = "Reply-all"
